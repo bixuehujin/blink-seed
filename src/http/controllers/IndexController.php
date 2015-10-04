@@ -2,7 +2,7 @@
 
 namespace app\http\controllers;
 
-use blink\base\Object;
+use blink\core\Object;
 
 class IndexController extends Object
 {

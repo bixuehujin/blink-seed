@@ -3,7 +3,7 @@
 namespace app\models;
 
 use blink\auth\Authenticatable;
-use blink\base\Object;
+use blink\core\Object;
 
 class User extends Object implements Authenticatable
 {
