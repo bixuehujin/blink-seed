@@ -6,7 +6,7 @@ require __DIR__ . '/vendor/autoload.php';
 $app = require_once __DIR__ . '/src/bootstrap.php';
 
 $status = $app->handleConsole(
-    $input = new Symfony\Component\Console\Input\ArgvInput,
+    new Symfony\Component\Console\Input\ArgvInput,
     new Symfony\Component\Console\Output\ConsoleOutput
 );
 
