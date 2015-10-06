@@ -12,4 +12,15 @@ return [
         'class' => 'blink\auth\Auth',
         'model' => 'app\models\User',
     ],
+    'log' => [
+        'class' => 'blink\log\Logger',
+        'targets' => [
+            'file' => [
+                'class' => 'blink\log\StreamTarget',
+                'enabled' => true,
+                'stream' => 'php://stderr',
+                'level' => 'info',
+            ]
+        ],
+    ],
 ];

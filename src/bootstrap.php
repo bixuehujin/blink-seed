@@ -4,16 +4,19 @@
  */
 $config = require __DIR__ . '/config/app.php';
 
-$app = new blink\http\Application($config);
-
 /**
  * Loading routes definitions.
  */
-$app->routes = require __DIR__ . '/http/routes.php';
+$config['routes'] = require __DIR__ . '/http/routes.php';
 
 /**
  * Loading application service definitions.
  */
-$app->services = require __DIR__ . '/config/services.php';
+
+$config['services'] = require __DIR__ . '/config/services.php';
+
+
+$app = new blink\http\Application($config);
+
 
 return $app;

@@ -70,15 +70,16 @@ return [
 
 
     /*------------------------------------------------------------------
-     * Request Default Configurations
+     * Services Refreshing
      *------------------------------------------------------------------
      *
-     * Here you may override the default configurations for the Request
-     * object, and even implement your own Request class.
+     * Here you define that services need to be refreshed after a single
+     * request.
      *
      */
 
-    'request' => [
-
+    'refresh' => [
+        'request',
+        'response',
     ],
 ];
