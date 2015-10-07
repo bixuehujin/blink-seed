@@ -1,4 +1,4 @@
 <?php
 return [
-    ['GET', '/', 'IndexController:sayHello']
+    ['GET', '/', 'IndexController@sayHello']
 ];
