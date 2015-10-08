@@ -16,7 +16,7 @@ $config['routes'] = require __DIR__ . '/http/routes.php';
 $config['services'] = require __DIR__ . '/config/services.php';
 
 
-$app = new blink\http\Application($config);
+$app = new blink\core\Application($config);
 
 
 return $app;
