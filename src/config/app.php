@@ -45,6 +45,18 @@ return [
     'debug' => true,
 
     /*------------------------------------------------------------------
+     * Application Environment
+     * -----------------------------------------------------------------
+     *
+     * Specify what is the environment your application is running on.
+     * This config now is mainly used for testing purpose, in unit tests,
+     * PHPUnit will set environment to `test` automatically.
+     *
+     */
+
+    'environment' => BLINK_ENV,
+
+    /*------------------------------------------------------------------
      * Application Runtime Path
      *-----------------------------------------------------------------
      *

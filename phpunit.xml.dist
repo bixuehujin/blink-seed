@@ -14,4 +14,7 @@
         <whitelist processUncoveredFilesFromWhitelist="false">
         </whitelist>
     </filter>
+    <php>
+        <env name="BLINK_ENV" value="test"/>
+    </php>
 </phpunit>
