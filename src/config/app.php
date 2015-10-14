@@ -79,19 +79,4 @@ return [
      */
 
     'controllerNamespace' => '\app\http\controllers',
-
-
-    /*------------------------------------------------------------------
-     * Services Refreshing
-     *------------------------------------------------------------------
-     *
-     * Here you define that services need to be refreshed after a single
-     * request.
-     *
-     */
-
-    'refresh' => [
-        'request',
-        'response',
-    ],
 ];

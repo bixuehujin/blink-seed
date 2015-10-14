@@ -1,7 +1,15 @@
 <?php
 return [
+    'request' => [
+        'class' => \blink\http\Request::class,
+        'middleware' => [],
+    ],
+    'response' => [
+        'class' => \blink\http\Response::class,
+        'middleware' => [],
+    ],
     'session' => [
-        'class' => 'blink\session\Session',
+        'class' => 'blink\session\Manager',
         'expires' => 3600 * 24 * 15,
         'storage' => [
             'class' => 'blink\session\FileStorage',
