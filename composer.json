@@ -1,6 +1,6 @@
 {
     "name" : "blink/seed",
-    "description": "A seed application for Blink framework",
+    "description": "A seed application for Blink Framework",
     "authors" : [
         {
             "name" : "Jin Hu",
@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "blink/blink": "dev-master@dev"
+        "blink/blink": "0.1.*"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
