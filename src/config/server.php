@@ -1,7 +1,7 @@
 <?php
 return [
     'class' => '\blink\server\SwServer',
-    'bootstrap' => require __DIR__ . '/../bootstrap.php',
+    'bootstrap' => __DIR__ . '/../bootstrap.php',
     'host' => '0.0.0.0',
     'port' => 7788,
 ];
