@@ -79,4 +79,15 @@ return [
      */
 
     'controllerNamespace' => '\app\http\controllers',
+
+    /*------------------------------------------------------------------
+     * Application Commands
+     *------------------------------------------------------------------
+     *
+     * Registering console commands used by the application.
+     *
+     */
+    'commands' => [
+
+    ],
 ];
