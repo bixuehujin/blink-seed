@@ -1,8 +1,8 @@
 Change Log
 ==========
 
-0.1.1 xx xx, 2015
----------------------
+0.2.0 December 05, 2015
+-----------------------
 
 - Enh: Added live reload support for application configurations
 - Enh: Added support to run Blink application under php-fpm, mod_php or php built-in web server
