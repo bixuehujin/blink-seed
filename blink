@@ -3,11 +3,8 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-$app = require_once __DIR__ . '/src/bootstrap.php';
+$server = new blink\server\CliServer([
+    'bootstrap' => __DIR__ . '/src/bootstrap.php'
+]);
 
-$status = $app->handleConsole(
-    new Symfony\Component\Console\Input\ArgvInput,
-    new Symfony\Component\Console\Output\ConsoleOutput
-);
-
-exit($status);
+exit($server->run());
