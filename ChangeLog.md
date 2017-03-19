@@ -1,6 +1,13 @@
 Change Log
 ==========
 
+0.3.0 March 19, 2017
+--------------------
+
+- Chg: Using CliServer in `./blink` command line
+- Enh: Using RequestActor for functional testing
+- Enh: Updating bootstrap.php for better live reloading support
+
 0.2.0 December 05, 2015
 -----------------------
 
