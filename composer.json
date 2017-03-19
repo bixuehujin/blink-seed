@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "blink/blink": "dev-master"
+        "blink/blink": "0.3.*"
     },
     "require-dev": {
         "phpunit/phpunit": "~5.0"
