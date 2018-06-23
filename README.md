@@ -16,7 +16,7 @@ With the help of [Composer](https://getcomposer.org), you can create a new Blink
 composer create-project --prefer-dist blink/seed your-app
 ```
 
-For more information, please visit our main  development repo [here](https://github.com/bixuehujin/blink).
+For more information, please visit our main development repo [here](https://github.com/bixuehujin/blink).
 
 License
 -------
