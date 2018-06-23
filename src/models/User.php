@@ -3,9 +3,9 @@
 namespace app\models;
 
 use blink\auth\Authenticatable;
-use blink\core\Object;
+use blink\core\BaseObject;
 
-class User extends Object implements Authenticatable
+class User extends BaseObject implements Authenticatable
 {
     /**
      * @inheritDoc

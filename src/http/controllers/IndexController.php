@@ -2,9 +2,9 @@
 
 namespace app\http\controllers;
 
-use blink\core\Object;
+use blink\core\BaseObject;
 
-class IndexController extends Object
+class IndexController extends BaseObject
 {
     public function sayHello()
     {
