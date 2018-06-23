@@ -1,6 +1,6 @@
 <?php
 
-defined('BLINK_ENV') or define('BLINK_ENV', getenv('BLINK_ENV') ?: 'dev');
+defined('BLINK_ENV') or define('BLINK_ENV', env('env', 'dev'));
 
 /**
  * Basic application configurations.
