@@ -26,8 +26,8 @@ return [
             'file' => [
                 'class' => 'blink\log\StreamTarget',
                 'enabled' => true,
-                'stream' => 'php://stderr',
-                'level' => 'info',
+                'stream' => env('log_file', 'php://stderr'),
+                'level' => env('log_level', 'info'),
             ]
         ],
     ],

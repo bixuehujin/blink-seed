@@ -2,6 +2,6 @@
 return [
     'class' => '\blink\server\SwServer',
     'bootstrap' => __DIR__ . '/../bootstrap.php',
-    'host' => '0.0.0.0',
-    'port' => 7788,
+    'host' => env('host', '0.0.0.0'),
+    'port' => env('port', 7788),
 ];
