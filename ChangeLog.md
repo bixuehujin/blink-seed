@@ -1,7 +1,7 @@
 Change Log
 ==========
 
-0.4.0 June xx, 2018
+0.4.0 June 24, 2018
 -------------------
 
 - New: Added usage demo for environment configuration
