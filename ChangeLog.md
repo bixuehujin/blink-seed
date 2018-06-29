@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+0.4.1 June 29, 2018
+-------------------
+
+- New: Rename Object to BaseObject to support php 7.2
+
+
 0.4.0 June 24, 2018
 -------------------
 
